@@ -44,7 +44,7 @@ public class DataGiver {
                 PrintArray.printArray(arr);
                 break;
             case 5:
-                // QuickSort.quickSort(arr, 0, arr.length - 1);
+                QuickSort.quickSort(arr, 0, arr.length - 1);
                 System.out.println("The elements in the array after Quick sort are :");
                 PrintArray.printArray(arr);
                 break;
